@@ -7,6 +7,8 @@ The framework follows the **Page Object Model (POM)** design pattern to maintain
 
 The tests are implemented against the **AutomationExercise** website and cover multiple real-world UI automation scenarios.
 
+![Playwright Tests](https://github.com/LakshmiJyoshna-9710/Playwright_Automation_Framework/actions/workflows/playwright.yml/badge.svg)
+
 ---
 
 ## 🚀 Tech Stack
