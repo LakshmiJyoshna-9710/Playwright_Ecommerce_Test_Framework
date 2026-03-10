@@ -7,10 +7,6 @@ The framework follows the **Page Object Model (POM)** design pattern to maintain
 
 The tests are implemented against the **AutomationExercise** website and cover multiple real-world UI automation scenarios.
 
-## Allure Test Report
-
-![Allure Dashboard](screenshots/allure-dashboard.png)
-
 ---
 
 ## 🚀 Tech Stack
