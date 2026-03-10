@@ -1,0 +1,15 @@
+[
+  {
+    "scenario": "Wrong Email",
+    "email": "wrongemail@mail.com",
+    "password": "Test@123",
+    "expectedMessage": "Your email or password is incorrect!"
+  },
+  {
+    "scenario": "Wrong Password",
+    "email": "validuser@mail.com",
+    "password": "Wrong123",
+    "expectedMessage": "Your email or password is incorrect!"
+  }
+  
+]
