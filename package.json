@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx playwright test",
-   "test1": "npx playwright test tests/MoreValidations.spec.js"
+    "test1": "npx playwright test tests/MoreValidations.spec.js"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,7 @@
     "@azure/microsoft-playwright-testing": "^1.0.0-beta.7",
     "@playwright/test": "^1.54.1",
     "@types/node": "^22.15.29",
-    "allure-playwright": "^3.3.2"
+    "allure-playwright": "^3.6.0"
   },
   "dependencies": {
     "@cucumber/cucumber": "^12.0.0",
