@@ -7,6 +7,7 @@ import { defineConfig, devices } from '@playwright/test';
  */
 export default defineConfig({
   testDir:'tests',
+  retries: 1,
    workers: 1,
   //testMatch: 'tests/InvalidLogin.spec.js',
   //by default wait tym is 30000
