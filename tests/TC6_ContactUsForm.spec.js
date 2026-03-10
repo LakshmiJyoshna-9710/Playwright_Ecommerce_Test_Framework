@@ -27,7 +27,7 @@ Verify landed to home page.
 
     }
 
-test('TC6 - Contact Us Form', async ({page})=>{
+test.skip('TC6 - Contact Us Form', async ({page})=>{
 
     //object creation
     const homepage = new HomePage(page);

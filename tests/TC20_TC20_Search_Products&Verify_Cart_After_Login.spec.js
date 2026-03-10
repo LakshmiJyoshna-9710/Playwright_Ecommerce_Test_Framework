@@ -92,7 +92,7 @@ test('TC20 – Search Products and Verify Cart After Login', async ({ page }) =>
     await homePage.clickCartBtn();
 
     // Verify cart products still exist
-    const countAfterLogin = await cartPage.getProductCount();
-    expect(countAfterLogin).toBe(countBeforeLogin);
+    await expect(page).toHaveURL(/view_cart/);
+    await expect(cartPage.cartRows).toHaveCount(countBeforeLogin);
 
 });

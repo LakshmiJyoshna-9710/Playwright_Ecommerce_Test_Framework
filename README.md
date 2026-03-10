@@ -73,7 +73,7 @@ Some of the automated scenarios include:
 Clone the repository
 
 ```
-git clone https://github.com/your-username/playwright-automation-framework.git
+git clone https://github.com/LakshmiJyoshna-9710/Playwright_Automation_Framework.git
 ```
 
 Navigate to the project folder
@@ -122,6 +122,29 @@ To open the report:
 npx playwright show-report
 ```
 
+### Playwright HTML Report
+
+Below is the Playwright HTML report generated after running the test suite.
+
+![Playwright Report](screenshots/playwright-html-report.png)
+
+---
+
+### Test Execution Result
+
+Terminal output showing successful execution of automated tests.
+
+![Test Execution](screenshots/test-ui-execution.png)
+
+---
+
+### Allure Test Report
+
+Allure provides a detailed and visually rich report with test statistics, timelines, and step-level execution.
+
+![Allure Dashboard](screenshots/allure-dashboard.png)
+
+![Allure Test Summary](screenshots/allure-summary.png)
 ---
 
 ## 🔧 Future Enhancements
