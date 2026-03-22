@@ -1,0 +1,32 @@
+trigger:
+  - main
+
+pool:
+  name: Default
+
+steps:
+  - task: NodeTool@0
+    inputs:
+      versionSpec: '18.x'
+    displayName: 'Install Node.js'
+
+  - script: npm ci
+    displayName: 'Install Dependencies'
+
+  - script: npx playwright install --with-deps
+    displayName: 'Install Playwright Browsers'
+
+  - script: npx playwright test
+    displayName: 'Run Playwright Tests'
+    continueOnError: true
+
+  - script: npx allure generate allure-results --clean -o allure-report
+    displayName: 'Generate Allure Report'
+    condition: always()
+
+  - task: PublishPipelineArtifact@1
+    condition: always()
+    inputs:
+      targetPath: allure-report
+      artifact: allure-report
+    displayName: 'Publish Allure Report'
